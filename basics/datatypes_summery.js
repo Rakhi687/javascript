@@ -8,10 +8,10 @@
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id === anotherId)
+//console.log(id === anotherId)
 //both have different value
 const bignum = 12345786453256n
-console.log(typeof bignum);
+//console.log(typeof bignum);
 
 
 const heros = ["Ram", "laxman", "doga"]//array
@@ -22,8 +22,35 @@ letmyObj = {
 }//datatype is object
 
 const myFunction = function () { 
-    console.log("Hello World!");
+    //console.log("Hello World!");
 }//datatype is object
+
+//++++++++++++++++++++++++++++++++++++++++
+
+// stack:primitve type data storage
+// heap: non - primitive type data storage
+
+//
+
+let myname = "Rakhi"
+let anothername = myname      //call by value
+anothername="Nandu"
+// console.log(anothername);
+// console.log(myname);
+
+let userOne = {
+    email: "rak@123",
+    userId:"rak@ybl"
+}
+let usertwo = userOne
+usertwo.email="rakhi@google.com"
+console.log(usertwo.email);
+console.log(userOne.email);
+
+
+
+
+
 
 
 
