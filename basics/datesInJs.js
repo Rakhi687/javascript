@@ -1,22 +1,22 @@
 //Dates
 let myDate = new Date()
-console.log(myDate.getMonth());
-console.log(myDate.getDay());
-console.log(myDate.getTime());
-console.log(myDate.getDate());
-console.log(myDate.getHours());
+// console.log(myDate.getMonth());
+// console.log(myDate.getDay());
+// console.log(myDate.getTime());
+// console.log(myDate.getDate());
+// console.log(myDate.getHours());
 
 
 
 
 
-// console.log(myDate)
-// console.log(myDate.toString());
-// console.log(myDate.toJSON());
-// console.log(myDate.toISOString());
-// console.log(myDate.toLocaleDateString());
-// console.log(myDate.toLocaleString());
-// console.log(myDate.toDateString());
+console.log(myDate)
+ console.log(myDate.toString());
+ console.log(myDate.toJSON());
+ console.log(myDate.toISOString());
+ console.log(myDate.toLocaleDateString());
+ console.log(myDate.toLocaleString());
+ console.log(myDate.toDateString());
 
 
 let myCreatedDate = new Date(2025, 0, 7)
