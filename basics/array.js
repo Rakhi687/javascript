@@ -18,11 +18,34 @@ const newarr=myarr.join()
 // console.log(myarr);
 
 //slice
-console.log(myarr);
+// console.log(myarr);
 const myn1 = myarr.slice(1, 3)//it give subset of the range
-console.log(myn1);
+// console.log(myn1);
 const myn2 = myarr.splice(0,2)//it delete that perticular range of number
-console.log(myn2);
+// console.log(myn2);
+
+
+const my_hero = ["shaktiman", "hanuman", "lalman"]
+const marvel_hero = ["thor", "batman", "superman"]
+// marvel_hero.push(my_hero)
+// console.log(marvel_hero);
+const new_arr = marvel_hero.concat(my_hero)
+// console.log(new_arr);
+const all_newheros = [...marvel_hero, ...my_hero]    //spread an array
+// console.log(all_newheros);
+let aray = [1, 2, 3,[4, 5], 6, [7, 8, 9]]
+let new_array=aray.flat(Infinity)
+console.log(new_array);
+// console.log(aray.isaray("rakhi"));
+console.log(aray.from("rakhi"));
+
+
+
+
+
+
+
+
 
 
 
