@@ -33,11 +33,11 @@ const new_arr = marvel_hero.concat(my_hero)
 // console.log(new_arr);
 const all_newheros = [...marvel_hero, ...my_hero]    //spread an array
 // console.log(all_newheros);
-let aray = [1, 2, 3,[4, 5], 6, [7, 8, 9]]
+let Array = [1, 2, 3,[4, 5], 6, [7, 8, 9]]
 let new_array=aray.flat(Infinity)
-console.log(new_array);
-// console.log(aray.isaray("rakhi"));
-console.log(aray.from("rakhi"));
+// console.log(new_array);
+// console.log(Array.isArray("rakhi"));
+// console.log(Array.from("rakhi"));
 
 
 
