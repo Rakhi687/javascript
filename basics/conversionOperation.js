@@ -1,9 +1,9 @@
-// let score = true;
+let score = true;
 // console.log(typeof score);
 // console.log(typeof (score));
 
 
-// let valueInNumber = Number(score);
+let valueInNumber = Number(score);
 // console.log(typeof valueInNumber);//it will convert to number
 
 // console.log(valueInNumber);//NaN not a number as score is 33abc
