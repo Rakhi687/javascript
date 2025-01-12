@@ -73,4 +73,11 @@ const { courseInstructor:cinst } = course
 console.log(cinst);  //TO DEMODIFY THE VALUE OF THE OBJECT BY UR OWN VARIABLE
 
 
+//JSON(JAVASCRIPT OBJECT NOTATION)format in API
 
+// { 
+//     "NAME": "rakhi",
+//         "age": 23,
+//             "isLoggedIN":false
+    
+// }
