@@ -1,11 +1,11 @@
 let name = "Rakhi"
 let count="90"
-console.log(`hello my name is ${name} and my repo count is ${count}`);
+// console.log(`hello my name is ${name} and my repo count is ${count}`);
 
 
 
  const name1 = new String("Rakhi-how- are you are you doing- good")
-// console.log(name1.__proto__);
+console.log(name1.__proto__);
 // console.log(name1.length);
 // console.log(name1.toUpperCase());
 // console.log(name1.charAt(0));
