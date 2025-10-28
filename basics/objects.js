@@ -1,7 +1,8 @@
 //singleton(constructor) Object.create
 // object has keys and values
 //object literals
-const mysym=Symbol("key1")  // how to define a symbol in object
+const mysym = Symbol("key1")  // how to define a symbol in object,immutable primitive value,unique object property keys
+
 const jsuser = {
     name: "Rakhi",
     age:23,
@@ -23,7 +24,7 @@ jsuser.email = "nandu@gmail.com"
 
 //to make save a value(unchanged)
 Object.freeze(jsuser)
-jsuser.email = "priya@gmail.com"
+jsuser.email = "priyanka@gmail.com"
 // console.log(jsuser["email"]);
 
 jsuser.greeting = function () { 

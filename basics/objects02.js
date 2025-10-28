@@ -63,7 +63,7 @@ const users = [
 const course = {
     coursename:"javascript",
     coursefees:"999",
-    courseInstructor:"Hitesh"
+    courseInstructor:"dev"
 }
 
 //TO EXTRACT MULTIPLE VALUE

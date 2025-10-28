@@ -1,6 +1,6 @@
 let score = true;
-// console.log(typeof score);
-// console.log(typeof (score));
+//  console.log(typeof score);
+//  console.log(typeof (score));
 
 
 let valueInNumber = Number(score);
@@ -42,15 +42,15 @@ let someNumber = String(sNumber)
 
 //Null value comparison
 
-console.log(null == 0);
-console.log(null >= 0);
-console.log(null>0);
+// console.log(null == 0);
+// console.log(null >= 0);
+// console.log(null>0);
 
 //same for undefined
 
-console.log(undefined == 0);
-console.log(undefined >= 0);
-console.log(undefined>0);
+// console.log(undefined == 0);
+// console.log(undefined >= 0);
+// console.log(undefined>0);
 
 
 
